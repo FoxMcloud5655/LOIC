@@ -28,23 +28,23 @@ namespace LOIC
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.SuspendLayout();
-			//
-			// frmWtf
-			//
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackgroundImage = global::LOIC.Properties.Resources.WTF;
-			this.ClientSize = new System.Drawing.Size(416, 300);
-			this.ControlBox = false;
-			this.Icon = global::LOIC.Properties.Resources.LOIC_ICO;
-			this.Name = "frmWtf";
-			this.ShowInTaskbar = false;
-			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmWtf_FormClosed);
-			this.Click += new System.EventHandler(this.frmWtf_Click);
-			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmWtf_KeyDown);
-			this.ResumeLayout(false);
+            this.SuspendLayout();
+            // 
+            // frmWtf
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1109, 715);
+            this.ControlBox = false;
+            this.Icon = global::LOIC.Properties.Resources.LOIC_ICO;
+            this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.Name = "frmWtf";
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmWtf_FormClosed);
+            this.Click += new System.EventHandler(this.frmWtf_Click);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmWtf_KeyDown);
+            this.ResumeLayout(false);
 
 		}
 
